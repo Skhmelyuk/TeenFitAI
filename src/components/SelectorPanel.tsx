@@ -105,7 +105,7 @@ export default function SelectorPanel({
           className="group flex w-full items-center justify-center gap-3 rounded-2xl bg-lime-500 px-6 py-4 text-base font-extrabold text-slate-900 shadow-xl shadow-lime-500/25 transition duration-200 hover:-translate-y-0.5 hover:bg-lime-400 hover:shadow-lime-400/40 active:translate-y-0 disabled:cursor-wait disabled:opacity-70"
         >
           {isLoading ? <Loader2 className="h-5 w-5 animate-spin" /> : <Rocket className="h-5 w-5 transition group-hover:-translate-y-0.5" />}
-          🚀 Підібрати тренування для мене
+          Підібрати тренування для мене
         </button>
         <button
           type="button"
