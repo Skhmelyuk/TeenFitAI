@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-[#0f172a] text-white;
+  }
+
+  ::selection {
+    @apply bg-lime-500 text-slate-900;
+  }
+}
